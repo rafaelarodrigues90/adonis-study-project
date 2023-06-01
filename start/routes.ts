@@ -20,6 +20,8 @@
 import HealthCheck from '@ioc:Adonis/Core/HealthCheck'
 import Route from '@ioc:Adonis/Core/Route'
 
+import './routes/users'
+
 Route.get('/', async () => {
   return { hello: 'world' }
 })
