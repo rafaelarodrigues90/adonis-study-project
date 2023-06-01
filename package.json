@@ -8,7 +8,8 @@
     "start": "node server.js",
     "test": "node ace test",
     "lint": "eslint . --ext=.ts",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "commit": "yarn git-cz"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +51,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-adonis": "^2.1.1",
     "eslint-plugin-prettier": "^4.2.1",
+    "git-cz": "^4.9.0",
     "husky": "^8.0.3",
     "pino-pretty": "^10.0.0",
     "prettier": "^2.8.8",

@@ -2777,6 +2777,11 @@ getopts@^2.3.0:
   resolved "https://registry.yarnpkg.com/getopts/-/getopts-2.3.0.tgz#71e5593284807e03e2427449d4f6712a268666f4"
   integrity sha512-5eDf9fuSXwxBL6q5HX+dhDj+dslFGWzU5thZ9kNKUkcPtaPdatmUFKwHFrLb/uf/WpA4BHET+AX3Scl56cAjpA==
 
+git-cz@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/git-cz/-/git-cz-4.9.0.tgz#c0604ff85b37046d51fd85e265040032c9617bf2"
+  integrity sha512-cSRL8IIOXU7UFLdbziCYqg8f8InwLwqHezkiRHNSph7oZqGv0togId1kMTfKil6gzK0VaSXeVBb4oDl0fQCHiw==
+
 git-raw-commits@^2.0.11:
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/git-raw-commits/-/git-raw-commits-2.0.11.tgz#bc3576638071d18655e1cc60d7f524920008d723"
