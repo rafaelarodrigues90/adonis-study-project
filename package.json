@@ -79,8 +79,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint . --fix",
-      "yarn test"
+      "eslint . --fix"
     ]
   }
 }
