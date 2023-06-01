@@ -4,7 +4,7 @@ import User from 'App/Models/User'
 
 export default class AuthController {
   public async register({ request, response }: HttpContextContract) {
-    const validations = await schema.create({
+    const validations = schema.create({
       email: schema.string({}, [rules.email(), rules.unique({ table: 'users', column: 'email' })]),
       password: schema.string({}, [rules.confirmed()]),
       username: schema.string(),
