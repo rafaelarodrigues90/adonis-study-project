@@ -33,7 +33,7 @@ const databaseConfig: DatabaseConfig = {
     | npm i pg
     |
     */
-    pg: {
+    postgres: {
       client: 'pg',
       connection: {
         host: Env.get('DB_HOST'),
