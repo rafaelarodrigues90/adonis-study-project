@@ -15,5 +15,19 @@ Write here!
 ## Seeds
 1.
 
-## Postman
+## Docs
 1.
+
+# Project Structure
+```
+project
+└───app
+│   └───Contracts
+│   └───Exceptions
+│   └───Models
+│   └───Services
+```
+- Contracts: store the input and output interfaces, such as repository interfaces, gateways, etc.
+- Exceptions: store custom exceptions
+- Models: store your entities and related business rules.
+- Services: store your use cases and related business rules.
