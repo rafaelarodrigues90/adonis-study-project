@@ -9,7 +9,10 @@
     "test": "node ace test",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write .",
-    "commit": "yarn git-cz"
+    "commit": "yarn git-cz",
+    "migration:run": "node ace migration:run",
+    "make:seed": "node ace make:seeder",
+    "db:seed": "node ace db:seed"
   },
   "eslintConfig": {
     "extends": [
