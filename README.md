@@ -15,19 +15,26 @@ Write here!
 ## Seeds
 1.
 
-## Docs
-1.
-
-# Project Structure
+## Project Structure
 ```
 project
 └───app
 │   └───Contracts
 │   └───Exceptions
+│   └───Middleware
 │   └───Models
-│   └───Services
+│   └───Provider
 ```
-- Contracts: store the input and output interfaces, such as repository interfaces, gateways, etc.
-- Exceptions: store custom exceptions
-- Models: store your entities and related business rules.
-- Services: store your use cases and related business rules.
+
+## Features
+- [x] Authentication with @adonisjs/auth
+- [x] Lucid ORM
+- [x] Postgresql database
+- [x] Migrations
+- [x] Abstração Controller/Repository
+- [x] Commitizen Friendly
+- [x] Docker
+- [ ] Tests
+- [ ] Sentry
+- [ ] Sonar
+- [ ] Swagger
