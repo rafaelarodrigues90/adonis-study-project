@@ -14,7 +14,11 @@ export default class AuthController {
 
     const user = await User.create(data)
 
-    return response.created(user)
+    user?.sendVerificationEmail()
+
+    return response
+      .status(201)
+      .send({ success: 'Registration successful, check your email inbox for a verification email' })
   }
 
   public async login({ request, response, auth }: HttpContextContract) {
